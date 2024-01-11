@@ -275,7 +275,7 @@ section .title::after{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 20px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -366,10 +366,10 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 80%;
+    width: 85%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 70%;
 }
 .skills-content .right .php::before{
     width: 50%;
@@ -377,10 +377,16 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
+.skills-content .right .salesforce::before{
+    width: 80%;
+}
+.skills-content .right .aws::before{
+    width: 80%;
+}
 
 /* teams section styling */
 .teams .title::after{
-    content: "whom i worked";
+    content: "what i've done";
 }
 .teams .carousel .card{
     background: #222;
